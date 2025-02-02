@@ -4,7 +4,7 @@ greenlet==1.1.2
 itsdangerous==2.1.1
 Jinja2==3.0.3
 joblib==1.1.0
-llvmlite==0.38.0
+llvmlite==0.39.0
 MarkupSafe==2.1.0
 numba==0.55.1
 numpy==1.21.5
