@@ -53,12 +53,12 @@ names = ['Decision Tree Classifier', 'Decition Tree Classifier Entropy',
 loaded_models = []
 for model in models:
     print(f"Loading model: {model}.pkl")
-    model_instance = pickle.load(open(f'../models/{model}.pkl', 'rb'))
+    model_instance = pickle.load(open(f'models/{model}.pkl', 'rb'))
     loaded_models.append(model_instance)
     print(f"Model {model} loaded successfully")
 
 
-app = Flask(__name__, template_folder="../templates", static_folder="../static")
+app = Flask(__name__)
 
 
 @app.route('/', methods=["GET"])
