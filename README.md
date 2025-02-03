@@ -136,3 +136,6 @@ graph TD
 - ##### Future Scope:
   - The parameters used in the project can be modified and new parameters can be added to make the model more accurate to the problem. Also, use of a verified and accurate dataset can increase the efficiency and accuracy of the models. Some more algorithms like Naive Bayes may also be explored to check the accuracy of the system.
 
+- #####Challenges and Considerations:
+
+  - Ensuring data privacy and security, particularly when handling sensitive user information. Addressing potential biases in the machine learning model to ensure fair and unbiased career recommendations.
